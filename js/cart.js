@@ -9,6 +9,8 @@ let cart;
 function loadCart() {
   const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
   cart = new Cart(cartItems);
+  
+
 }
 
 // Make magic happen --- re-pull the Cart, clear out the screen and re-draw it
@@ -25,11 +27,16 @@ function clearCart() {}
 function showCart() {
 
   // TODO: Find the table body
-
+  let bodyEl=document.getElementById('tbody')
   // TODO: Iterate over the items in the cart
+  
+//for(let i = 0 ; i<; i++ ){
+
+ // }
   // TODO: Create a TR
   // TODO: Create a TD for the delete link, quantity,  and the item
   // TODO: Add the TR to the TBODY and each of the TD's to the TR
+  
 
 }
 
